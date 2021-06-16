@@ -1,0 +1,633 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 100%;
+    height: 13cm;
+    background-color: #3381db;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 2;
+    color: white;
+    position: relative;
+    /* background-image: url(foto.jpg); */
+    background-size: cover;
+    background-position: center;
+    /* opacity: 0.4; */
+    overflow:hidden;
+    
+    
+}
+.box::before{
+    width: 100%;
+    height:13cm;
+    content:'Bahrom';
+    background-color: red;
+    position: absolute;
+    background-image: url(foto-1.jpg);
+    background-size: cover;
+    background-position: center;
+     top: ;
+    left: ; 
+    opacity:0.2 ;
+
+}
+
+.box::after{
+    width: 110%;
+    height: 4cm;
+    background: white;
+    content: '';
+    position: absolute;
+    bottom: -2cm;
+    left: -1cm;
+    transform: rotate(-9deg);
+    overflow: hidden;
+}
+
+.box header {
+    width: 100%;
+    height: 1.3cm;
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-end;
+    margin-bottom: 3cm;
+}
+.box header h2{
+    color: color:white;
+}
+.box header ul li a{
+    color: white;
+    text-decoration: none;}
+.box header ul{
+    display: flex;
+}
+.box header ul li{
+    margin: 10px 20px;
+    list-style-type: none;
+}
+.box p{
+    font-size: 15px;
+    width: 12cm;
+    text-align: center;
+}
+
+.box form button{
+    width: 3cm;
+    height: 0.7cm;
+    border-radius: 20px;
+    color: white;
+    background-color: #3381db ;
+    border-color: white;
+    margin-right: 1cm;
+}
+
+.wrapper1{
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+.wrapper1 .p1{
+    width: 10cm;
+    margin: 1cm 8cm;
+
+}
+.wrapper1 .blogs{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.wrapper1 .blogs .blog1, .blog2, .blog3{
+    width: 8cm;
+    height: 4cm;
+    padding-top: 0.5cm;
+    box-shadow: 1px 1px 1px 1px wheat;
+}
+
+.wrapper1 .blogs .blog1 a, .blog2 a, .blog3 a{
+    border: 2px solid;
+    border-radius: 50%;
+    padding: 5px;
+    background: rgb(187, 204, 207);
+}
+.wrapper1 .blogs .blog1:hover a:hover, .blog2 a:hover, .blog3 a:hover{
+    color: white;
+    background: blue;
+    font-size: 1cm;
+}
+
+
+.wrapper2{
+    width: 100%;
+    height: 7cm;
+    background-color: #3381db;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.wrapper2::before{
+    width: 100%;
+    height: 7cm;
+    background-color: red;
+    content:'Bahrom';
+    position: absolute;
+    background-image: url(foto-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.1;
+}
+.wrapper2::after{
+    width: 110%;
+    height: 3cm;
+    background-color: white;
+    content: '';
+    position: absolute;
+    top: -2cm;
+    left: -1cm;
+    transform: rotate(-4deg);
+    overflow: hidden;
+}
+
+.wrapper2 p{
+    margin: 0.3cm 0 1cm 0;
+}
+.wrapper2 button{
+    width: 3cm;
+    height: 0.7cm;
+    border-radius: 20px;
+}
+
+.wrapper3{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    padding-top: 1cm;
+}
+.wrapper3 p,h4{
+    margin: 0.5cm 0;
+}
+.wrapper3 button{
+    width: 2.5cm;
+    height: 0.7cm;
+    border-radius: 20px;
+    background:  #3381db;
+    color: white;
+}
+
+
+.wrapper3 .selection{
+    display: flex;
+}
+.wrapper3 .selection .left{
+    width: 50%;
+}
+.wrapper3 .selection .left img{
+    width:9cm;
+    height: 6cm;
+}
+.wrapper3 .selection .right{
+    width: 50%;
+    text-align: left;
+}
+
+.wrapper4{
+    width: 100%;
+    height: 8cm;
+    background-color: #3381db;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.wrapper4::before{
+    width: 100%;
+    height: 8cm;
+    background-color: red;
+    content:'Bahrom';
+    position: absolute;
+    background-image: url(foto-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.1;
+}
+.wrapper4::after{
+    width: 110%;
+    height: 3cm;
+    background-color: white;
+    content: '';
+    position: absolute;
+    top:6.8cm;
+    left: -1cm;
+    transform: rotate(-5deg);
+    overflow: hidden;
+}
+.wrapper4 h1{
+    margin-bottom: 0.5cm;
+}
+.wrapper4 button{
+    width: 3cm;
+    height: 0.7cm;
+    border-radius: 20px;
+    margin-top: 0.5cm;
+}
+
+.wrapper5{
+    width: 100%;
+    height: 800px;
+    text-align: center;
+}
+.wrapper5 .p1{
+    width: 10cm;
+    margin: 1cm 8cm;
+
+}
+.wrapper5 .selection{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1cm;
+    margin-top: 1cm;
+}
+.wrapper5 .selection .a, .b, .c{
+    width: 5cm;
+    height: 4.5cm;
+    box-shadow: 1px 1px 1px wheat;
+    text-align: left;
+}
+
+
+.wrapper5 img{
+    width: 5cm;
+    height:3cm ;
+}
+
+.wrapper6{
+    width: 100%;
+    height: 7cm;
+    background-color: #3381db;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.wrapper6::before{
+    width: 100%;
+    height: 7cm;
+    background-color: red;
+    content:'Bahrom';
+    position: absolute;
+    background-image: url(foto-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.1;
+}
+.wrapper6::after{
+    width: 110%;
+    height: 3cm;
+    background-color: white;
+    content: '';
+    position: absolute;
+    top: -2cm;
+    left: -1cm;
+    transform: rotate(-4deg);
+    overflow: hidden;
+}
+.wrapper6 a{
+    font-size: 1cm;
+    color:white;
+}
+
+.wrapper7{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+.wrapper7 h1{
+    color: blue;
+    margin-top: 1cm;
+}
+.wrapper7 .p1{
+    width: 10cm;
+    margin: 1cm 8cm;
+
+}
+.wrapper7 .selection{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0.5cm;
+}
+.wrapper7 .selection .aa, .bb, .cc, .dd{
+    width: 4cm;
+    height: 5cm;
+    /* border: 1px solid; */
+
+}
+.wrapper7 img{
+    width: 4cm;
+    height:5cm ;
+}
+
+
+.wrapper8{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    padding-top: 1cm;
+}
+.wrapper8 h1{
+    color: blue;
+}
+.wrapper8 h1,.p1{
+    margin-bottom: 0.5cm;
+}
+.wrapper8 .selection{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 1.7;
+}
+.wrapper8 .selection .e,.f,.g{
+    box-shadow:3px 3px 10px silver;
+    border-radius: 10px;
+    height: 6cm;
+}
+.wrapper8 .selection button{
+    width: 2.5cm;
+    height: 0.7cm;
+    border-radius: 20px;
+}
+
+.wrapper8 .selection .e:hover,.f:hover,.g:hover{
+    background:  #3381db;
+    color: #fff;
+    height: 8cm;
+    transition: 0.50s all;
+}
+
+
+.wrapper9{
+    width: 100%;
+    height: 7cm;
+    background-color: #3381db;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.wrapper9::before{
+    width: 100%;
+    height: 7cm;
+    background-color: red;
+    content:'Bahrom';
+    position: absolute;
+    background-image: url(foto-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.1;
+}
+.wrapper9::after{
+    width: 110%;
+    height: 3cm;
+    background-color: white;
+    content: '';
+    position: absolute;
+    top:6cm;
+    left: -1cm;
+    transform: rotate(-5deg);
+    overflow: hidden;
+}
+.wrapper9 .boxs{
+    display: flex;
+    text-align: center;
+}
+.wrapper9 .boxs .tr{
+    margin-right: 2cm;
+}
+
+.wrapper10{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.wrapper10 h1{
+    color: blue;
+}
+.wrapper10 .blog{
+    width: 60%;
+    height: 6cm;
+    text-align: center;
+    line-height: 2;
+    /* border: 1px solid; */
+    box-shadow: 5px 5px 15px 5px silver;
+}
+.wrapper10 .blog img{
+    width: 1.5cm;
+    height: 1.5cm;
+    border-radius: 50%;
+    margin-top: 0.5cm;
+}
+.wrapper10 p{
+    color: rgb(74, 14, 98);
+}
+
+
+.wrapper11{
+    width: 100%;
+    height: 7cm;
+    background-color: #3381db;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.wrapper11::before{
+    width: 100%;
+    height: 7cm;
+    background-color: red;
+    content:'Bahrom';
+    position: absolute;
+    background-image: url(foto-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.1;
+}
+.wrapper11::after{
+    width: 110%;
+    height: 3cm;
+    background-color: white;
+    content: '';
+    position: absolute;
+    top: -2cm;
+    left: -1cm;
+    transform: rotate(-4deg);
+    overflow: hidden;
+}
+.wrapper11 button{
+    width: 2.5cm;
+    height: 0.7cm;
+    border-radius: 20px;
+    margin-top: 0.5cm;
+    background:  #3381db;
+    color: white;
+    border: 2px solid  white;
+}
+.wrapper11 button:hover{
+    color:#3381db;
+    background: white;
+}
+
+.wrapper12{
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    padding-top: 1cm;
+}
+.wrapper12 h2{
+    color: blue;
+}
+.wrapper12 h2,.p1{
+    margin-bottom: 0.7cm;
+}
+.wrapper12 .boxs{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 1.5;
+}
+.wrapper12 .boxs .box1,.box2,.box3{
+    width: 6cm;
+    text-align: left;
+}
+    .wrapper12 .boxs img{
+        width: 6cm;
+        height: 4cm;
+        border-radius: 5px;
+    }
+
+.wrapper12 .boxs .box1:hover,.box2:hover,.box3:hover{
+    background:  #3381db;
+    color: #fff;
+}
+.wrapper12 a{
+    text-decoration: none;
+}
+
+.footer{
+    width: 100%;
+    height: 500px;
+    background: darkblue;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.footer::after{
+    width: 110%;
+    content: 'b';
+    position: absolute;
+    top:-2.1cm;
+    left:-1cm;
+    height: 4cm;
+    background: white;
+    transform: rotate(-9deg);
+}
+
+.footer .bloks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .bloks .blok1,.blok2,.blok3,.blok4{
+    width: 5cm;
+    height: 5cm;
+    
+}
+.footer .bloks .blok1 ul{
+    display: flex;
+    margin-left: 0.3cm;
+}
+.footer .bloks .blok1 ul li{
+    margin: 0.8cm 10px;
+    list-style-type: none;
+}
+.footer .bloks .blok1 ul li a{
+    color: white;
+    font-size: 0.6cm;
+}
+
+.footer .bloks .blok4 img{
+    width: 1.5cm;
+    height: 1.5cm;
+    margin-top: 15px;
+}
+.footer .bloks .blok2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .bloks .blok2 a{
+    text-decoration: none;
+    margin-bottom: 0.2cm;
+    color: white;
+}
+
+.footer .bloks .blok3{
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+}
+.footer .bloks .blok3 a{
+    color: white;
+}
+
+.footer .bloks .blok3 input{
+    width: 5cm;
+    height: 0.7cm;
+    border-radius: 20px;
+}
+.foot{
+  margin-left: 9cm;
+  background: darkblue;
+  width: 100%;
+  color: white;
+}
